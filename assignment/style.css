@@ -1,14 +1,26 @@
 /* Give your page a fun background color */
 body {
     background-color: red;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 /* Make the header and footer a different color from the background */
-footer {
-    background-color: aqua;
+footer p {
+    background-color: black;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+
 }
 
 header {
-    background-color: aliceblue;
+    background-color: white;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 50%;
 }
 /* Align the h1 containing your name in the center of the header*/
 h1 {
@@ -20,8 +32,16 @@ p {
     font-style: italic;
 }
 /* Put a border around your image */
-
+img {
+    border: 20px solid black;
+    height: 300px;
+}
 /* Change the font-family of your list */
 ul {
     font-family: 'Times New Roman', Times, serif;
+    border-width: 3x;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+
 }
